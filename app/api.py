@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import numpy as np
-from .model_loader import get_model, get_scaler, get_features
+from model_loader import get_model, get_scaler, get_features
 
 
 app = Flask(__name__)
